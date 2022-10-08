@@ -31,17 +31,19 @@ header  .fa-regular{
 .logo{
     width: 300px;
     height: 10vh;
-    background: #9b0ae9;
+    background: #e2c20a;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: rgb(168, 7, 7);
     clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
     padding: 10px;
     line-height: 1.3rem;
+   font-variant: small-caps;
+   font-size: 25px;
 }
 .logo:hover{
     /* color: #686569; */
-    background: #cc9f2c;
+    background: #574a4a;
 }
 .logo .fas{
     font-size: 50px;
@@ -49,7 +51,9 @@ header  .fa-regular{
 .logo p{
     width: 130px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: fantasy;
+    color: #030303;
 }
 ul.navbar{
     display: flex;
