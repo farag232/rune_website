@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1a0328;
+    font-family: 'poppins', sans-serif;
+    height: 150vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/image/6jc_EQ0jauSmG48pTAY7aB7nttCEv5Xf_KpxgBtzCgg.webp);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-position: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header  .fa-regular{
+    /* font-size: 20px; */
+    width: 40px;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #9b0ae9;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo:hover{
+    /* color: #686569; */
+    background: #cc9f2c;
+}
+.logo .fas{
+    font-size: 50px;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+ul.navbar li a.active{
+    color: #f5b411;
+}
+ul.navbar li a:hover:not(.active){
+    color: #fec53a;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #f5c448;
+    color: rgb(58, 55, 55);
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fas{
+    margin-right: 10px;
+}
+/* header ends here */
+
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: rgb(245, 237, 237); */
+}
+
+.content-des h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #c1ce0c;
+
+}
+.content-des p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    color: #eeeee1;
+}
+.content-des span{
+    color: #fec53a;
+}
+#btn-2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #fec53a;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+.rakuto{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgba(38, 2, 39, 0.846),rgba(204, 115, 14));
+    position: relative;
+}
+.rakuto::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+    background: url(../image/pngwing.com\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+}
+
+
+
+/* section 3 ends here */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    height: 12vh;
+    background: #fec53a;
+    color: #000;
+    line-height: 1.7rem;
+    font-size: 15px;
+    
+    
+}
+.footer-logo:hover{
+    color: rgb(116, 122, 122);
+}
+
+footer i{
+    width: 30px;
+    font-size: 20px;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+    
+}
+ul li a  {
+    font-size: 1.2rem;
+    color: #cc9f2c;
+    margin-right: 15px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fec53a;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #fec53a;
+}
+ button a{
+    text-decoration: none;
+    color: #1a0328;
+}
+button a:hover{
+   color: rgb(116, 122, 122);
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+footer a:hover{
+    color: rgb(116, 122, 122);
+}
