@@ -113,6 +113,13 @@ ul.navbar li a:hover:not(.active){
 .content-des span{
     color: #fec53a;
 }
+
+.content-des i{
+    width: 20px;
+}
+.content-des i:hover{
+    color: rgb(116, 122, 122)
+}
 #btn-2{
     width: 350px;
     height: 10vh;
