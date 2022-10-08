@@ -52,8 +52,9 @@ header  .fa-regular{
     width: 130px;
     margin-left: 10px;
     font-size: 35px;
-    font-family: fantasy;
-    color: #030303;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #272729;
+   font-weight: 800;
 }
 ul.navbar{
     display: flex;
