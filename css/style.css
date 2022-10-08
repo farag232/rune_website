@@ -142,7 +142,7 @@ ul.navbar li a:hover:not(.active){
 .rakuto{
     width: 400px;
     height: 400px;
-    background: linear-gradient(rgba(38, 2, 39, 0.846),rgba(204, 115, 14));
+    background: linear-gradient(rgba(31, 2, 31, 0.846),rgb(173, 90, 7));
     position: relative;
 }
 .rakuto::after{
@@ -154,7 +154,7 @@ ul.navbar li a:hover:not(.active){
     background-position: center;
     position: absolute;
     bottom: 0;
-    left: -150px;
+    /* left: -130px; */
 }
 
 
