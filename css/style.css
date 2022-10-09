@@ -12,7 +12,7 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/image/6jc_EQ0jauSmG48pTAY7aB7nttCEv5Xf_KpxgBtzCgg.webp);
+    background: linear-gradient(rgba(2, 2, 2, 0.5),rgba(17, 17, 17, 0.5)),  url(/image/7020506.webp);
     background-size: cover;
     background-position: center;
 }
@@ -105,7 +105,7 @@ ul.navbar li a:hover:not(.active){
 .content-des h1{
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #eaf15c;
+    color: #f7a610;
 
 }
 .content-des p{
@@ -113,7 +113,7 @@ ul.navbar li a:hover:not(.active){
     font-size: 1.3rem;
     line-height: 2rem;
     margin-bottom: 10px;
-    color: #eeeee1;
+    color: #8b8b87;
 }
 .content-des span{
     color: #fec53a;
@@ -140,21 +140,21 @@ ul.navbar li a:hover:not(.active){
     text-align: left;
 }
 .rakuto{
-    width: 400px;
+    width:400px;
     height: 400px;
-    background: linear-gradient(rgba(31, 2, 31, 0.846),rgb(173, 90, 7));
+    /* background: linear-gradient(rgba(31, 2, 31, 0.846),rgb(173, 90, 7)); */
     position: relative;
 }
 .rakuto::after{
     content: '';
-    width: 400px;
-    height: 400px;
-    background: url(../image/pngwing.com\ \(1\).png);
+    width: 300px;
+    height: 300px;
+    background: url(../image/101.png);
     background-size: cover;
     background-position: center;
     position: absolute;
     bottom: 0;
-    /* left: -130px; */
+    left: -130px;
 }
 
 
